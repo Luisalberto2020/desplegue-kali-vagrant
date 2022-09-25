@@ -11,3 +11,6 @@ Para virtual box
   - hack nerd font
   - tmux con tema ohMytmux 
   - inetsim
+  - vscode
+  - descomprimido del rockyou
+  

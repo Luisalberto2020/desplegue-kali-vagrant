@@ -63,7 +63,17 @@ cp .tmux/.tmux.conf.local .
 echo "deb http://www.inetsim.org/debian/ binary/" > /etc/apt/sources.list.d/inetsim.list
 echo "deb-src http://www.inetsim.org/debian/ source/" >> /etc/apt/sources.list.d/inetsim.list
 apt update
-apt install inetsim
+apt install inetsim -y
 
+wget -O code.deb  https://go.microsoft.com/fwlink/?LinkID=760868
+dpkg -i code.deb
+rm code.deb
+
+cp /usr/share/wordlists/rockyou.txt.gz /opt/
+gzip -d /usr/share/wordlists/rockyou.txt.gz
+
+updatedb
+
+userdel -f -r vagrant
 
 shutdown -r now
