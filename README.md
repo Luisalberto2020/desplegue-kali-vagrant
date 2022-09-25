@@ -12,5 +12,6 @@ Para virtual box
   - tmux con tema ohMytmux 
   - inetsim
   - vscode
+  - xclip
   - descomprimido del rockyou
   

@@ -72,7 +72,9 @@ rm code.deb
 cp /usr/share/wordlists/rockyou.txt.gz /opt/
 gzip -d /usr/share/wordlists/rockyou.txt.gz
 
-updatedb
+apt install xclip -y
+
+updatedb #Actualiza el locate
 
 userdel -f -r vagrant
 
