@@ -77,6 +77,11 @@ apt install gobuster -y
 
 updatedb #Actualiza el locate
 
+cd /opt
+git clone https://github.com/volatilityfoundation/volatility3.git
+cd volatility3
+python3 setup.py install
+
 userdel -f -r vagrant
 
 shutdown -r now
