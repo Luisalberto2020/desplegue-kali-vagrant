@@ -14,4 +14,5 @@ Para virtual box
   - vscode
   - xclip
   - descomprimido del rockyou
-  
+  - Gobuster
+  - Xclip

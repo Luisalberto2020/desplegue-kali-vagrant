@@ -73,6 +73,7 @@ cp /usr/share/wordlists/rockyou.txt.gz /opt/
 gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 apt install xclip -y
+apt install gobuster -y
 
 updatedb #Actualiza el locate
 
