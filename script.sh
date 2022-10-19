@@ -90,9 +90,12 @@ python2.7 setup.py install
  pip3 install stegoveritas
  stegoveritas_install_deps
 
- pip3 install osrframework
+pip3 install osrframework
 
 apt- install software-properties-common -y
+apt update
+
+apt-get install synapse -y
 
 userdel -f -r vagrant
 
