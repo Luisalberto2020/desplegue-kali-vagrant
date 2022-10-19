@@ -87,6 +87,8 @@ python3 setup.py install
 
  pip3 install osrframework
 
+apt- install software-properties-common -y
+
 userdel -f -r vagrant
 
 shutdown -r now
