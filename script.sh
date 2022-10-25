@@ -82,6 +82,11 @@ git clone https://github.com/volatilityfoundation/volatility3.git
 cd volatility3
 python3 setup.py install
 
+cd /opt
+git clone https://github.com/volatilityfoundation/volatility
+cd volatility
+python2.7 setup.py install
+
  pip3 install stegoveritas
  stegoveritas_install_deps
 

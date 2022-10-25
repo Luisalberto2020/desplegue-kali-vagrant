@@ -17,3 +17,4 @@ Para virtual box
   - Gobuster
   - stegoveritas
   - ORSFRAMEWORK
+  - Volatility 2 y 3
