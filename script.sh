@@ -10,6 +10,9 @@ apt update
 apt upgrade -y
 apt install zsh-syntax-highlighting zsh-autosuggestions -y
 
+#Druivers wifi
+apt install -y realtek-rtl88xxau-dkms
+
 useradd -m -p $(echo "$password" | openssl passwd -1 -stdin) -s /usr/bin/zsh "$user"
 echo "$user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
